@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="firstapp.miwok">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app1"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NumbersActivity"
+            android:label="@string/app_name1" />
+        <activity
+            android:name=".FamilyActivity"
+            android:label="@string/app_name2" />
+        <activity
+            android:name=".ColorsActivity"
+            android:label="@string/app_name3" />
+        <activity
+            android:name=".PhrasesActivity"
+            android:label="Phases" />
+        <activity android:name=".GridActivity"
+            android:label="Grid View" />
+
+    </application>
+
+</manifest>
